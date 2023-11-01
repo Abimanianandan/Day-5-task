@@ -23,10 +23,9 @@ for(let a in obj){
     console.log(obj[a]);
 }
 
-// For each loop:-
-for(let b in obj){
-    console.log(obj[b]);
-}
+// For Each loop:-
+const result=obj.forEach((ele)=>console.log(ele));
+
 
 // 2.Create your own resume data in JSON format:-
 const obj1=[
