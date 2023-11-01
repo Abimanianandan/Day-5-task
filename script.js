@@ -33,7 +33,11 @@ const obj1=[
     "name":"Abimani",
     "age":"20",
     "degree":"Bca",
+    "skill":"Web developement",
     "city":"Thanjavur",
     "hobby":"Movies"
 }
 ]
+for(var i=0;i<obj1.length;i++){
+    console.log(obj1[i]);
+}
